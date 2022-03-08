@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.img {
+  width: 100%;
+  height: 80%;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+}
+.email label {
+  font-size: 25px;
+}
+.search-text {
+  margin-bottom: 20px;
+}
+.search-text p {
+  font-size: 19px;
+}
+.search-text h3 {
+  font-size: 25px;
+}
+.search-account input {
+  width: 100%;
+}
+.search-account input[type="Email"],
+input[type="Password"] {
+  padding: 20px 25px;
+  border-radius: 5px;
+  border-color: aqua;
+  margin: 15px 0;
+}
+
+.radio {
+  display: grid;
+  grid-template-columns: 1tr 1tr;
+  padding: 20px 0;
+}
+.a1{
+  
+}
+.forgot {
+  text-align: right;
+}
+.forgot p{
+  text-decoration: none;
+  margin-top: 10px;
+  color: #37a9cd;
+}
+.Login input {
+  width: 100%;
+}
+.Login input[type="submit"],
+input[type="Login-now"] {
+  padding: 20px;
+  color: azure;
+  border-radius: 5px;
+  border: none;
+}
+.Login-now {
+  background-color: #37a9cd;
+  margin-bottom: 20px;
+}
+.google {
+  background-color: #2d3748;
+}
+.contact {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 15px;
+}
+.contact a {
+  text-decoration: none;
+  color: aqua;
+}
